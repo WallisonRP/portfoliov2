@@ -20,6 +20,10 @@ body {
 
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+}
 
 .header {
   background-color: #000000;
@@ -29,8 +33,6 @@ body {
   
   
   nav {
-    margin: 0 auto;
-    max-width: 1160px;
     display: flex;
     align-items: center;
     justify-content: space-between;
