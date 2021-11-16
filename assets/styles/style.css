@@ -1,1 +1,70 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.btn {
+  background-color: #14d8ff;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border-radius: 24px;
+}
+
+.header {
+  background-color: #000000;
+  width: 100%;
+  height: 80px;
+}
+
+.header nav {
+  margin: 0 auto;
+  max-width: 1160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 15px;
+}
+
+.logo {
+  font-size: 2.625rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.logo span {
+  color: #14d8ff;
+}
+
+.headerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerMenu li a {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.headerMenu li + li {
+  margin-left: 30px;
+}
+
+.curriculoBotao, .projetosBotao {
+  width: 150px;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */
