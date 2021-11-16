@@ -74,6 +74,35 @@ body {
   height: 40px;
 }
 
+.intro {
+  background-color: $backgroundColor;
+  padding-top:40px
+}
+
+.arte {
+  padding-top: 100px;
+  width: 445px;
+  height: 510px;
+  background: url('../images/Frame\ 3formaHeader.svg') no-repeat;
+  color: #fff;
+
+  span {
+    font-size: 4.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 30px;
+  }
+
+  .sobrenome {
+    padding-left: 100px;
+  }
+
+  p {
+    font-size: 1.75rem;
+    padding-left:240px;
+  }
+}
+
 
 
 

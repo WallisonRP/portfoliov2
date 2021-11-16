@@ -70,4 +70,33 @@ body {
   width: 150px;
   height: 40px;
 }
+
+.intro {
+  background-color: #141414;
+  padding-top: 40px;
+}
+
+.arte {
+  padding-top: 100px;
+  width: 445px;
+  height: 510px;
+  background: url("../images/Frame 3formaHeader.svg") no-repeat;
+  color: #fff;
+}
+
+.arte span {
+  font-size: 4.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 30px;
+}
+
+.arte .sobrenome {
+  padding-left: 100px;
+}
+
+.arte p {
+  font-size: 1.75rem;
+  padding-left: 240px;
+}
 /*# sourceMappingURL=style.css.map */
