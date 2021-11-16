@@ -73,7 +73,16 @@ body {
 
 .intro {
   background-color: #141414;
-  padding-top: 40px;
+  padding-top: 100px;
+}
+
+.introContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .arte {
@@ -98,5 +107,12 @@ body {
 .arte p {
   font-size: 1.75rem;
   padding-left: 240px;
+}
+
+.arteUndraw {
+  width: 492px;
+  height: 349px;
+  margin-top: 40px;
+  background: url("../images/arteUndraw.svg") no-repeat;
 }
 /*# sourceMappingURL=style.css.map */

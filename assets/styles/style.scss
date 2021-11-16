@@ -75,8 +75,16 @@ body {
 }
 
 .intro {
+  // display: flex;
   background-color: $backgroundColor;
   padding-top:40px
+  
+  
+}
+
+.introContainer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .arte {
@@ -101,6 +109,12 @@ body {
     font-size: 1.75rem;
     padding-left:240px;
   }
+}
+
+.arteUndraw {
+  width: 492px;
+  height: 349px;
+  background: url('../images/arteUndraw.svg');
 }
 
 
