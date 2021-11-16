@@ -117,7 +117,22 @@ body {
   background: url('../images/arteUndraw.svg');
 }
 
+.redesSociais {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  margin-top: -200px;
 
+  .redesLista {
+    li+li {
+      padding-top: 24px;
+    }
+
+    img {
+      width: 50px;
+    }
+  }
+}
 
 
 

@@ -73,7 +73,7 @@ body {
 
 .intro {
   background-color: #141414;
-  padding-top: 100px;
+  padding-top: 40px;
 }
 
 .introContainer {
@@ -112,7 +112,21 @@ body {
 .arteUndraw {
   width: 492px;
   height: 349px;
-  margin-top: 40px;
-  background: url("../images/arteUndraw.svg") no-repeat;
+  background: url("../images/arteUndraw.svg");
+}
+
+.redesSociais {
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  margin-top: -200px;
+}
+
+.redesSociais .redesLista li + li {
+  padding-top: 24px;
+}
+
+.redesSociais .redesLista img {
+  width: 50px;
 }
 /*# sourceMappingURL=style.css.map */
