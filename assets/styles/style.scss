@@ -77,7 +77,7 @@ body {
 .intro {
   // display: flex;
   background-color: $backgroundColor;
-  padding-top:40px
+  padding-top: 60px
   
   
 }
@@ -112,6 +112,7 @@ body {
 }
 
 .arteUndraw {
+  margin-top: 60px;
   width: 492px;
   height: 349px;
   background: url('../images/arteUndraw.svg');
