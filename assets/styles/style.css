@@ -242,6 +242,33 @@ body {
 .formacao .grupo-tecnologias .tecnologias {
   width: 840px;
   height: 84px;
+  padding: 0 50px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formacao .grupo-tecnologias .tecnologias .tecnologia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.formacao .grupo-tecnologias .tecnologias .tecnologia img {
+  margin-right: 8px;
+}
+
+.formacao .grupo-tecnologias .tecnologias span {
+  font-size: 1.125rem;
 }
 /*# sourceMappingURL=style.css.map */
