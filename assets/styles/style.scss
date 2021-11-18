@@ -8,6 +8,16 @@ $buttonMenuColor: linear-gradient(to right,
   rgba(0, 214, 255, 1)
 );
 
+* {
+  box-sizing: border-box;
+}
+
+.card-component {
+  background: #090909;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif;
 }
@@ -135,6 +145,94 @@ body {
     }
   }
 }
+
+
+
+.perfil {
+  width: 100%;
+  height: 800px;
+  background: #fff;
+}
+
+
+.formacao {
+  background: $backgroundColor;
+  width: 100%;
+  height: 1024px;
+  color: #fff;
+  position: relative;
+
+  .container {
+    padding-top: 200px;
+
+    .tituloFormacao {
+      font-size: 4.375rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      width: 1px;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      position: absolute;
+    }
+    
+    p {
+      font-size: 1.125rem;
+      padding: 10px 0 0 200px;
+    }
+  }
+  
+  .cursos {
+    padding: 60px 0 0 200px;
+    width: 844px;
+    display: grid;
+    grid-template-columns: repeat(3, 240px);
+    grid-template-rows: repeat(2, 180px);
+    gap: 60px;
+
+
+    .curso {
+      width: 240px;
+      height: 180px;
+      padding: 20px 0px 18px 20px;
+      font-size: 1.125rem;
+      display: grid;
+      position: relative;
+
+
+      h2 {
+        font-weight: bold;
+        max-width: 213px;
+      }
+
+      h3 {
+        color: $textColor;
+        align-self: end;
+      }
+
+      h4 {
+        font-size: 0.95rem;
+      }
+
+
+      &::before {
+        content: "";
+        width: 6px;
+        height: 30px;
+        border-radius: 5px;
+        background: $primaryColor;
+        display: block;
+        position: absolute;
+        left: -4px;
+        top: 70px;
+      }
+
+    }
+
+  }
+
+}
+
+
 
 
 
