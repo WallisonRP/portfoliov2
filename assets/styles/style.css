@@ -173,12 +173,14 @@ body {
 
 .formacao .container p {
   font-size: 1.125rem;
-  padding: 10px 0 0 200px;
+  padding: 10px 0 0 160px;
+  max-width: 800px;
 }
 
 .formacao .cursos {
-  padding: 60px 0 0 200px;
+  padding-top: 60px;
   width: 844px;
+  margin: 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (240px)[3];
@@ -224,5 +226,22 @@ body {
   position: absolute;
   left: -4px;
   top: 70px;
+}
+
+.formacao .grupo-tecnologias {
+  padding: 55px 0 0 0px;
+  text-align: center;
+}
+
+.formacao .grupo-tecnologias h2 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.formacao .grupo-tecnologias .tecnologias {
+  width: 840px;
+  height: 84px;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */
