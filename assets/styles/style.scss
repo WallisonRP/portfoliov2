@@ -266,7 +266,40 @@ body {
       }
     }
   }
+}
 
+
+.footer {
+  width: 100vw;
+  height: 32rem;
+  background: #000;
+  color: #fff;
+
+  a{ 
+  color: #fff;
+  }
+}
+
+.redes-footer {
+  padding-top: 70px;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  .rede {
+    a{
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 50px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  div + div {
+    margin-top: 30px;
+  }
 }
 
 

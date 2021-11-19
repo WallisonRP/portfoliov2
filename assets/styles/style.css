@@ -271,4 +271,39 @@ body {
 .formacao .grupo-tecnologias .tecnologias span {
   font-size: 1.125rem;
 }
+
+.footer {
+  width: 100vw;
+  height: 32rem;
+  background: #000;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.redes-footer {
+  padding-top: 70px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.redes-footer .rede a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redes-footer .rede a img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.redes-footer div + div {
+  margin-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
