@@ -1,3 +1,8 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -23,30 +28,41 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 1160px;
+  width: 80vw;
 }
 
 .header {
   background-color: #000000;
   width: 100%;
   height: 80px;
-}
-
-.header nav {
+  position: absolute;
+  padding: 30px 0;
+  top: 0;
+  left: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 15px;
 }
 
 .logo {
-  font-size: 2.625rem;
+  font-size: 2.625em;
   font-weight: 600;
   color: #fff;
 }
@@ -67,7 +83,7 @@ body {
 }
 
 .headerMenu li a {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   font-weight: 500;
   text-transform: uppercase;
   color: #fff;
@@ -78,13 +94,14 @@ body {
 }
 
 .curriculoBotao, .projetosBotao {
-  width: 150px;
-  height: 40px;
+  width: 9.375rem;
+  height: 2.5rem;
 }
 
 .intro {
   background-color: #141414;
-  padding-top: 60px;
+  margin-top: 80px;
+  padding: 3.75rem 0;
 }
 
 .introContainer {
@@ -97,34 +114,39 @@ body {
 }
 
 .arte {
-  padding-top: 100px;
-  width: 445px;
-  height: 510px;
-  background: url("../images/Frame 3formaHeader.svg") no-repeat;
+  position: relative;
+  max-width: 25.813rem;
   color: #fff;
+}
+
+.arte .intro-texto {
+  position: relative;
+  width: 30rem;
+  top: -410px;
 }
 
 .arte span {
   font-size: 4.5rem;
   font-weight: 600;
   text-transform: uppercase;
-  padding-left: 30px;
+  padding-left: 1.875rem;
 }
 
 .arte .sobrenome {
-  padding-left: 100px;
+  padding-left: 6.25rem;
 }
 
 .arte p {
   font-size: 1.75rem;
-  padding-left: 240px;
+  padding-left: 15rem;
 }
 
 .arteUndraw {
-  margin-top: 60px;
-  width: 492px;
-  height: 349px;
-  background: url("../images/arteUndraw.svg");
+  margin: 50px 0 0 60px;
+}
+
+.arteUndraw img {
+  width: 40.75rem;
 }
 
 .redesSociais {
@@ -140,7 +162,7 @@ body {
 }
 
 .redesSociais .redesLista img {
-  width: 50px;
+  width: 44px;
 }
 
 .perfil {
@@ -284,7 +306,6 @@ body {
 }
 
 .redes-footer {
-  padding-top: 70px;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -305,5 +326,34 @@ body {
 
 .redes-footer div + div {
   margin-top: 30px;
+}
+
+.container-footer {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-footer .footer-descricao {
+  width: 25em;
+}
+
+.container-footer .footer-descricao p {
+  margin-bottom: 50px;
+}
+
+.linha {
+  width: 1px;
+  height: 300px;
+  background: #fff;
+}
+
+.copyright {
+  color: #8F8F8F;
+  margin-top: 40px;
 }
 /*# sourceMappingURL=style.css.map */
