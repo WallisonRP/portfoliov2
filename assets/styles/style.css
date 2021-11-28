@@ -28,12 +28,12 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 80vw;
+  width: 70vw;
 }
 
 .header {
   background-color: #000000;
-  width: 100%;
+  width: 100vw;
   height: 80px;
   position: absolute;
   padding: 30px 0;
@@ -104,6 +104,20 @@ body {
   padding: 3.75rem 0;
 }
 
+.intro .redesSociais {
+  position: absolute;
+  right: calc(10px + 2vw);
+  padding-top: 40px;
+}
+
+.intro .redesSociais .redesLista li + li {
+  padding-top: 24px;
+}
+
+.intro .redesSociais .redesLista img {
+  width: calc(28px + 1vw);
+}
+
 .introContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,18 +128,15 @@ body {
 }
 
 .arte {
-  position: relative;
-  max-width: 25.813rem;
   color: #fff;
 }
 
 .arte .intro-texto {
   position: relative;
-  width: 30rem;
   top: -410px;
 }
 
-.arte span {
+.arte h2 {
   font-size: 4.5rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -138,31 +149,11 @@ body {
 
 .arte p {
   font-size: 1.75rem;
-  padding-left: 15rem;
+  padding-left: 12rem;
 }
 
 .arteUndraw {
-  margin: 50px 0 0 60px;
-}
-
-.arteUndraw img {
-  width: 40.75rem;
-}
-
-.redesSociais {
-  margin-right: 30px;
-  position: absolute;
-  right: 10px;
-  top: 430px;
-  margin-top: -200px;
-}
-
-.redesSociais .redesLista li + li {
-  padding-top: 24px;
-}
-
-.redesSociais .redesLista img {
-  width: 44px;
+  margin: 50px 0 0 4vw;
 }
 
 .perfil {
@@ -173,7 +164,7 @@ body {
 
 .formacao {
   background: #141414;
-  width: 100%;
+  width: 100vw;
   height: 1024px;
   color: #fff;
   position: relative;
